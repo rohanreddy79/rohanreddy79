@@ -32,6 +32,32 @@ benchmarked with reproducible commands, and documented with honest roadmaps.
 | [llm-gateway](https://github.com/rohanreddy79/llm-gateway) | An OpenAI-compatible LLM gateway in Go: virtual keys, rate limits, retries, provider fallback, circuit breakers, response cache, streaming translation, cost accounting | 65k requests/s at p99 1.7 ms through the full middleware chain; a 10%-failing upstream served 3,000 requests with zero client-visible errors; 87 race-clean tests |
 | [mcp-toolbox](https://github.com/rohanreddy79/mcp-toolbox) | A sandboxed Model Context Protocol server in TypeScript: read-only SQLite, allow-listed filesystem and HTTP tools, with tests that prove each boundary | 8 tools over stdio and Streamable HTTP; 18 sandbox checks each mapped to a test; zero native dependencies via node:sqlite; 100 tests |
 
+## Earlier projects
+
+Coursework and smaller projects from 2022–2025, each brought up to the same standard in October 2026:
+a real README, MIT license, pinned dependencies, the known bugs fixed, and a CI workflow that builds or
+tests it on every push.
+
+| Project | What it is | Language |
+|---|---|---|
+| [distributed-computing-model](https://github.com/rohanreddy79/distributed-computing-model) | Gossip and push-sum convergence simulated over line, full, 2D and imperfect-3D actor topologies with Akka.NET | F# |
+| [Chord-distributed-hash-table-](https://github.com/rohanreddy79/Chord-distributed-hash-table-) | Chord peer-to-peer lookup: 160-bit SHA-1 ring, finger tables, stabilisation, average hop count | F# |
+| [concurrent-client-server](https://github.com/rohanreddy79/concurrent-client-server) | Concurrent TCP calculator server and client with a small error-code protocol | F# |
+| [GatorLibrary](https://github.com/rohanreddy79/GatorLibrary) | Library simulator on a hand-written red-black tree with min-heap reservation queues; golden-output test | Python |
+| [Simple-File-Transfer-Chat](https://github.com/rohanreddy79/Simple-File-Transfer-Chat) | Peer-to-peer terminal chat with inline file transfer over raw TCP sockets | Python |
+| [password-cracking-attacks](https://github.com/rohanreddy79/password-cracking-attacks) | Security coursework: brute-force, dictionary, rainbow-table and divide-and-conquer attacks on toy hashes | Python |
+| [log-report-fixed](https://github.com/rohanreddy79/log-report-fixed) | A Terminal-Bench 2 task with its oracle and verifier, checked end to end in Docker | Python |
+| [Django-deploy](https://github.com/rohanreddy79/Django-deploy) | Django + DRF polling app with a JSON vote API, fixed and covered by tests | Python |
+| [streamlit-nyc-collisions](https://github.com/rohanreddy79/streamlit-nyc-collisions) | Streamlit dashboard over NYC motor-vehicle collision data: maps, hourly hexagons, top streets | Python |
+| [Data-Science-and-analytics-Projects](https://github.com/rohanreddy79/Data-Science-and-analytics-Projects) | Seven notebooks: regression, k-means, retail and IPL EDA, decision trees, ARIMA on SENSEX, COVID maps | Jupyter |
+| [Wetland-Detection-ML](https://github.com/rohanreddy79/Wetland-Detection-ML) | Wetland vs dry-land classification from spectral bands: trees, logistic regression, SVM, bagging, random forest | Jupyter |
+| [sklearn-clustering-lab](https://github.com/rohanreddy79/sklearn-clustering-lab) | K-means, agglomerative and DBSCAN compared on synthetic blobs (re-executed on current scikit-learn) | Jupyter |
+| [Random-Clusters](https://github.com/rohanreddy79/Random-Clusters) | The same clustering lab with the written analysis | Jupyter |
+| [TASK-Check](https://github.com/rohanreddy79/TASK-Check) | Task dashboard and CLI with a Node test suite | JavaScript |
+| [assessment](https://github.com/rohanreddy79/assessment) | Package-sorting exercise with 14 unit tests | Python |
+| [spidr-airfryer-form](https://github.com/rohanreddy79/spidr-airfryer-form) | A small React form built for a take-home exercise | JavaScript |
+| [Portfolio](https://github.com/rohanreddy79/Portfolio) | Previous portfolio site (React, Vite, Tailwind); superseded by [rohanreddy79.github.io](https://rohanreddy79.github.io/) | JavaScript |
+
 ## How I work
 
 - Every repository has a test suite and a CI workflow; nothing is merged red.
