@@ -41,7 +41,7 @@ tests it on every push.
 | Project | What it is | Language |
 |---|---|---|
 | [distributed-computing-model](https://github.com/rohanreddy79/distributed-computing-model) | Gossip and push-sum convergence simulated over line, full, 2D and imperfect-3D actor topologies with Akka.NET | F# |
-| [Chord-distributed-hash-table-](https://github.com/rohanreddy79/Chord-distributed-hash-table-) | Chord peer-to-peer lookup: 160-bit SHA-1 ring, finger tables, stabilisation, average hop count | F# |
+| [chord-dht](https://github.com/rohanreddy79/chord-dht) | Chord peer-to-peer lookup: 160-bit SHA-1 ring, finger tables, stabilisation; measures about ½·log₂N hops per lookup after the routing fix | F# |
 | [concurrent-client-server](https://github.com/rohanreddy79/concurrent-client-server) | Concurrent TCP calculator server and client with a small error-code protocol | F# |
 | [GatorLibrary](https://github.com/rohanreddy79/GatorLibrary) | Library simulator on a hand-written red-black tree with min-heap reservation queues; golden-output test | Python |
 | [Simple-File-Transfer-Chat](https://github.com/rohanreddy79/Simple-File-Transfer-Chat) | Peer-to-peer terminal chat with inline file transfer over raw TCP sockets | Python |
