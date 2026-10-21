@@ -3,6 +3,8 @@
 **Software engineer building AI systems and the infrastructure underneath them.**
 Software Engineer at UF Health · M.S. Computer Science, University of Florida · Y Combinator Startup School 2026
 
+**Website: [rohanreddy79.github.io](https://rohanreddy79.github.io/)** · [LinkedIn](https://www.linkedin.com/in/jakkam-rohan-reddy-069a2a193/) · [jakkamrohan79@gmail.com](mailto:jakkamrohan79@gmail.com)
+
 I work at the layer where machine learning meets systems engineering: training loops, retrieval
 pipelines, agent runtimes, inference servers, and the consensus, indexing and gateway code that
 production platforms depend on. In industry I have shipped an IRB-regulated healthcare data platform
