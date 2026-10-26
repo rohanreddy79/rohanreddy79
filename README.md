@@ -80,11 +80,19 @@ tests it on every push.
 
 ## Skills
 
-- **Languages**: Python, TypeScript, Go, JavaScript, Java, SQL, Swift, C++
-- **AI / LLM**: RAG pipelines, agents and tool use, evaluation frameworks, guardrails, vector search (pgvector), OpenAI and Anthropic APIs, MCP, AWS Bedrock and SageMaker, LangChain
-- **Full-stack**: React, Next.js, React Native, Node.js, FastAPI, Flask, GraphQL, REST, OAuth2/JWT
-- **Data and infrastructure**: PostgreSQL, Redis, Kafka, Spark, Airflow, Snowflake, ETL pipelines
-- **Cloud and DevOps**: AWS, GCP, Docker, Kubernetes, Terraform/CloudFormation, Jenkins, CI/CD, production monitoring
+Every line names the repositories where the skill is demonstrated in working, tested code.
+
+| Area | Skills | Proven in |
+|---|---|---|
+| Machine learning | PyTorch, NumPy, transformer architecture, BPE tokenisation, KV-cache inference, autograd and backpropagation, CNNs, optimisers and learning-rate schedules, numerical gradient checking, scikit-learn | [tinygpt](https://github.com/rohanreddy79/tinygpt), [nanograd](https://github.com/rohanreddy79/nanograd), [Wetland-Detection-ML](https://github.com/rohanreddy79/Wetland-Detection-ML), [sklearn-clustering-lab](https://github.com/rohanreddy79/sklearn-clustering-lab) |
+| LLM engineering | Retrieval-augmented generation (BM25, hybrid retrieval, reciprocal rank fusion, reranking, cited answers), embeddings and vector search, agents and tool use, structured outputs, LLM evaluation and LLM-as-judge with confidence intervals, Anthropic and OpenAI APIs, Model Context Protocol, LangChain, guardrails | [ragkit](https://github.com/rohanreddy79/ragkit), [agentloop](https://github.com/rohanreddy79/agentloop), [evalkit](https://github.com/rohanreddy79/evalkit), [mcp-toolbox](https://github.com/rohanreddy79/mcp-toolbox), [llm-gateway](https://github.com/rohanreddy79/llm-gateway) |
+| Systems and distributed | Raft consensus, linearizability, fault-injection simulation testing, HNSW approximate nearest-neighbour search, API gateways, token-bucket rate limiting, circuit breakers, retries with backoff, response caching, SSE streaming, dynamic batching and backpressure, actor model (Akka.NET), TCP socket programming | [raftkv](https://github.com/rohanreddy79/raftkv), [hnswgo](https://github.com/rohanreddy79/hnswgo), [llm-gateway](https://github.com/rohanreddy79/llm-gateway), [batchserve](https://github.com/rohanreddy79/batchserve), [chord-dht](https://github.com/rohanreddy79/chord-dht), [distributed-computing-model](https://github.com/rohanreddy79/distributed-computing-model), [concurrent-client-server](https://github.com/rohanreddy79/concurrent-client-server) |
+| Languages | Python, Go, TypeScript, JavaScript, Java, SQL, Swift, C++, F# | all of the above, [AppleTune](https://github.com/rohanreddy79/AppleTune) |
+| Backend and APIs | FastAPI, Django and Django REST Framework, Node.js, Flask, GraphQL, REST design, OAuth2 / JWT, Supabase Edge Functions (Deno), Streamlit, Prometheus metrics | [ragkit](https://github.com/rohanreddy79/ragkit), [batchserve](https://github.com/rohanreddy79/batchserve), [Django-deploy](https://github.com/rohanreddy79/Django-deploy), [streamlit-nyc-collisions](https://github.com/rohanreddy79/streamlit-nyc-collisions), visitlog (private: self-hosted site analytics) |
+| Frontend | React, Next.js, React Native, hand-written HTML/CSS/JS, accessibility, performance and SEO | [rohanreddy79.github.io](https://github.com/rohanreddy79/rohanreddy79.github.io), [Portfolio](https://github.com/rohanreddy79/Portfolio), [spidr-airfryer-form](https://github.com/rohanreddy79/spidr-airfryer-form) |
+| Data | PostgreSQL with row-level security, SQLite, Redis, Kafka, Spark, Airflow, Snowflake, ETL pipelines, pandas, Jupyter | [ragkit](https://github.com/rohanreddy79/ragkit), [mcp-toolbox](https://github.com/rohanreddy79/mcp-toolbox), [Data-Science-and-analytics-Projects](https://github.com/rohanreddy79/Data-Science-and-analytics-Projects) |
+| Security | Sandboxing (path containment, SQL gating, host allow-lists), CSRF and auth hardening, applied cryptography coursework, CompTIA Security+ | [mcp-toolbox](https://github.com/rohanreddy79/mcp-toolbox), [Django-deploy](https://github.com/rohanreddy79/Django-deploy), [password-cracking-attacks](https://github.com/rohanreddy79/password-cracking-attacks) |
+| Cloud, DevOps and quality | AWS, GCP, Supabase, Docker, Kubernetes, Terraform / CloudFormation, GitHub Actions CI, Jenkins, load testing and benchmarking, pytest, Go race detector, vitest, Django test client, uv and ruff, reproducible benchmarks with stated hardware | [batchserve](https://github.com/rohanreddy79/batchserve), [llm-gateway](https://github.com/rohanreddy79/llm-gateway), CI on all 28 repositories |
 
 ## Education
 
